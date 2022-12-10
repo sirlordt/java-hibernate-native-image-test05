@@ -46,8 +46,11 @@ public class App {
             System.out.println( "**** Configuration Read ****" );
 
 
+            //**** Begin the next code braak the native run of this app ****
             configuration.addAnnotatedClass( Author.class );
             configuration.addAnnotatedClass( Book.class );
+            //**** End the next code braak the native run of this app ****
+            
             // //configuration.configure( new File( "/home/dsystems01/Desktop/Java/hibernate.cfg.properties" ) );
             // //configuration.addAnnotatedClass( Author.class );
             // //configuration.addAnnotatedClass( Book.class );
